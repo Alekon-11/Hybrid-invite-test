@@ -1,0 +1,39 @@
+.product-slider{
+    max-width: 520px;
+    width: 100%;
+
+    &__main-image{
+        display: block;
+        cursor: pointer;
+        @include imgBlock(88.5%);
+    }
+
+    &__main-image img{
+        @include imgPosition;
+    }
+
+    &__items{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 20px;
+    }
+
+    &__item{
+        cursor: pointer;
+        @include imgBlock(108%);
+        overflow: hidden;
+        border-radius: 4px;
+    }
+
+    &__item img{
+        @include imgPosition;
+    }
+
+    @media (max-width : 991px){
+        &__items{
+            margin-top: 10px;
+            gap: 10px;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+@import '__fonts.scss';
+@import '__variables-and-mixins.scss';
+@import '__nulling.scss';
+@import '__main-page.scss';
+@import '__product-card.scss';
+@import '__product-slider.scss';
+@import '__product-info.scss';
+@import '__discription.scss';
+@import '__characteristics.scss';
+
+.container{
+    margin: 0 auto;
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 40px;
+}
+
+@media (max-width : 991px){
+    .container{
+        padding: 0 10px;
+    }
+}
