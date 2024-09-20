@@ -32,7 +32,7 @@
 
     &__title{
         line-height: 2.1rem;
-        max-width: 430px;
+        @include maxWidth(430px);
     }
 
     &__rate{
@@ -51,7 +51,7 @@
             display: grid;
             grid-template-columns: repeat(5, 1fr);
             gap: 20px;
-            max-width: 430px;
+            @include maxWidth(430px);
         }
     
         &-btn{
@@ -112,8 +112,7 @@
     }
 
     &__btn{
-        max-width: 430px;
-        width: 100%;
+        @include maxWidth(430px);
         height: 60px;
         border-radius: 4px;
         background-color: $accent;

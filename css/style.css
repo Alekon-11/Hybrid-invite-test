@@ -172,6 +172,7 @@ button {
 .product-info__title {
   line-height: 2.1rem;
   max-width: 430px;
+  width: 100%;
 }
 .product-info__rate {
   font-size: 0;
@@ -189,6 +190,7 @@ button {
   grid-template-columns: repeat(5, 1fr);
   gap: 20px;
   max-width: 430px;
+  width: 100%;
 }
 .product-info__size-btn {
   font-size: 0.875rem;
@@ -279,6 +281,7 @@ button {
 .discription__text {
   font-size: 1rem;
   max-width: 430px;
+  width: 100%;
   line-height: 1.4rem;
 }
 

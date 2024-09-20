@@ -4,7 +4,7 @@
     
     &__text{
         font-size: 1rem;
-        max-width: 430px;
+        @include maxWidth(430px);
         line-height: 1.4rem;
     }
 }

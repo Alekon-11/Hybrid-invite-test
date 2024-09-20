@@ -17,3 +17,8 @@ $gray: #B2B5BB;
     position: relative;
     padding-top: $pTop;
 }
+
+@mixin maxWidth($px){
+    max-width: $px;
+    width: 100%;
+}
